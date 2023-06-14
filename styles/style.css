@@ -11,56 +11,57 @@
     }
 
     main {
-        margin: 0 auto;
         background-color: white;
         border-radius: 5px;
-        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.377);
-        color: black;
-        width: 25em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 28.125em;
         height: 30em;
+        margin: 3em auto;
     }
 
     h1 {
+        margin: 0.5em;
+    }
+    
+    main p {
         margin: 1em;
     }
 
     .form-group {
-        margin: 25px 0px 10px;
+        padding: 1em;
+    }
+
+    label {
         display: block;
     }
 
     .input {
         border-radius: 5px;
+        width: 10em;
         height: 2em;
     }
 
     .btn {
-        border-radius: 5px;
-        height: 2em;
-        margin-top: 1em;
-    }
-
-    p {
-        margin: 1em;
+        width: 8em;
+        height: 1.5em;
+        font-size: 1em;
     }
 
     a {
         text-decoration: none;
     }
 
-    a:hover {
-        text-decoration: underline;
-    }
-
     footer {
+        background-color: aliceblue;
         text-align: center;
         position: fixed;
-        bottom: 0;
         width: 100%;
-        background-color: aliceblue;
+        bottom: 0;
     }
 }
-
 @media only screen and (max-width: 992px) {
     * {
         margin: 0px;
@@ -80,7 +81,7 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        width: 35em;
+        max-width: 550px;
         height: 30em;
         margin: 3em auto;
     }
@@ -136,66 +137,67 @@
         margin: 0px;
         padding: 0px;
         box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+        background-image: linear-gradient(to right, #E081FF, #6637E7, #6E89FA, #59B4E3, #62FBE7);
     }
 
     main {
-        width: 100%;
+        background-color: white;
+        border-radius: 5px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 12em;
+        text-align: center;
+        max-width: 700px;
+        height: 30em;
+        margin: 3em auto;
     }
 
     h1 {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.5em;
-        margin-bottom: 1.2em;
+        margin: 0.5em;
+    }
+    
+    main p {
+        margin: 1em;
     }
 
     .form-group {
-        margin: 1em 0em 0.5em;
-        text-align: center;
+        padding: 1em;
+        
     }
 
     label {
         display: block;
-        text-align: center;
     }
 
-    input {
-        width: 15em;
+    .input {
+        border-radius: 5px;
+        width: 16em;
+        height: 2em;
     }
 
-    input[type=submit] {
-        width: 5em;
+    .btn {
+        width: 8em;
+        height: 1.5em;
+        font-size: 1em;
     }
 
-    input::placeholder {
-        text-align: center;
+    a {
+        text-decoration: none;
     }
 
-    section {
-        text-align: center;
-        margin-top: 3em;
-    }
-
-    img {
-        width: 3em;
-        height: 3em;
-        background-color: white;
-    }
-
-    img:hover {
-        transform: translate(-5px, -3px);
-        transition-delay: .1s;
-        transition-duration: .5s;
+    a:hover {
+        text-decoration: underline;
     }
 
     footer {
+        background-color: aliceblue;
         text-align: center;
         position: fixed;
-        bottom: 0;
         width: 100%;
-        background-color: aliceblue;
+        bottom: 0;
     }
 }
