@@ -40,17 +40,17 @@
         margin-top: 1em;
     }
 
-    .inline {
-        display: inline;
+    p {
+        margin: 1em;
     }
 
-    li {
-        list-style: none;
+    a {
+        text-decoration: none;
     }
 
-    img {
-        mix-blend-mode: multiply;
-      }
+    a:hover {
+        text-decoration: underline;
+    }
 
     footer {
         text-align: center;
@@ -58,15 +58,6 @@
         bottom: 0;
         width: 100%;
         background-color: aliceblue;
-    }
-
-    footer a {
-        text-decoration: none;
-        color: blue;
-    }
-
-    footer a:hover {
-        text-decoration: underline;
     }
 }
 
