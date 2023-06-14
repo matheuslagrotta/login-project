@@ -3,6 +3,7 @@
         margin: 0px;
         padding: 0px;
         box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     body {
@@ -10,15 +11,13 @@
     }
 
     main {
-        display: flex;
-        flex-direction: column;
-        margin: 1.2em auto;
+        margin: 0 auto;
         background-color: white;
         border-radius: 5px;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.377);
-        width: 75vw;
-        height: 75vh;
         color: black;
+        width: 25em;
+        height: 30em;
     }
 
     h1 {
@@ -30,10 +29,28 @@
         display: block;
     }
 
-    .btn {
+    .input {
         border-radius: 5px;
         height: 2em;
     }
+
+    .btn {
+        border-radius: 5px;
+        height: 2em;
+        margin-top: 1em;
+    }
+
+    .inline {
+        display: inline;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    img {
+        mix-blend-mode: multiply;
+      }
 
     footer {
         text-align: center;
@@ -41,6 +58,15 @@
         bottom: 0;
         width: 100%;
         background-color: aliceblue;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: blue;
+    }
+
+    footer a:hover {
+        text-decoration: underline;
     }
 }
 
