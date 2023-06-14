@@ -7,9 +7,10 @@ form.addEventListener('submit', (e) => {
 
     if (username.value === '' || password.value === '') {
         alert('Por favor, preenhca os camapos de usuário e senha!');
+        return;
     } else {
         alert('Usuário e senha validados com sucesso!')
     } 
     form.submit();
-    window.location.href = '';
+    window.location.href = 'https://matheuslagrotta.github.io/login-project/signIn.html';
 })
