@@ -103,17 +103,6 @@
         text-align: center;
     }
 
-    section {
-        text-align: center;
-        margin-top: 3em;
-    }
-
-    img {
-        width: 3em;
-        height: 3em;
-        background-color: white;
-    }
-
     footer {
         text-align: center;
         position: fixed;
