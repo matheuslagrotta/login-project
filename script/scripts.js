@@ -1,15 +1,13 @@
 const form = document.getElementById('formulario');
 
-
 form.addEventListener('submit', (e) => {
     e.preventDefault();
 
-    const nome = document.getElementById('nome').value;
-    const email = document.getElementById('email').value;
+    const username = document.getElementById('username').value;
     const senha = document.getElementById('password').value
 
-    if (nome === '' || email === '' || senha === '') {
-        alert('Por favor preenhca todos os campos do formulário.');
+    if (username === '' || senha === '') {
+        alert('Por favor, preencha todos os campos do formulário.');
         return;
     }
 
